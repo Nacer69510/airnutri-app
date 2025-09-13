@@ -1,0 +1,12 @@
+{
+  "name": "airnutri-frontend",
+  "version": "1.0.0",
+  "description": "Interface web minimale pour AirNutri",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
