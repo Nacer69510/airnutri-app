@@ -68,6 +68,46 @@
     </table>
   </div>
 
+  <!-- Formulaire pour ajouter un client -->
+  <div class="section" id="addClientSection">
+    <h2>Ajouter un client</h2>
+    <label for="clientPrenom">Prénom :</label>
+    <input type="text" id="clientPrenom" placeholder="Prénom">
+    <label for="clientNom">Nom :</label>
+    <input type="text" id="clientNom" placeholder="Nom">
+    <label for="clientEmail">Email :</label>
+    <input type="email" id="clientEmail" placeholder="Email">
+    <button id="btnAddClient">Ajouter le client</button>
+  </div>
+
+  <!-- Formulaire pour ajouter une semaine -->
+  <div class="section" id="addSemaineSection">
+    <h2>Ajouter une semaine</h2>
+    <label for="newSemaineClient">Client :</label>
+    <select id="newSemaineClient"></select>
+    <label for="newSemaineCode">Code semaine (ex : 2024-s38) :</label>
+    <input type="text" id="newSemaineCode">
+    <label for="newSemaineDate">Date de début :</label>
+    <input type="date" id="newSemaineDate">
+    <button id="btnAddSemaine">Ajouter la semaine</button>
+  </div>
+
+  <!-- Formulaire pour ajouter un repas -->
+  <div class="section" id="addRepasSection">
+    <h2>Ajouter un repas</h2>
+    <label for="newRepasSemaine">Semaine :</label>
+    <select id="newRepasSemaine"></select>
+    <label for="newRepasJour">Jour :</label>
+    <input type="text" id="newRepasJour" placeholder="Lundi, Mardi…">
+    <label for="newRepasMoment">Moment :</label>
+    <input type="text" id="newRepasMoment" placeholder="Petit déjeuner…">
+    <label for="newRepasMenu">Menu :</label>
+    <input type="text" id="newRepasMenu" placeholder="Plat/Recette">
+    <label for="newRepasCalories">Calories :</label>
+    <input type="number" id="newRepasCalories" placeholder="350">
+    <button id="btnAddRepas">Ajouter le repas</button>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
